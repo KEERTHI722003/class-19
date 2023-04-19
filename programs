@@ -31,7 +31,7 @@ rem=div=0
 while(n!=0):
   rem=num%10
   div=div*10+rem
-  n=n/10
+  n=n//10
 if(div==temp):
   print("Palindrome")
 else:
